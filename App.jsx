@@ -5,13 +5,14 @@ import React from 'react';
 class App extends React.Component {
 
   render() {
-    // How to style with React. Using inline method
+    {/*How to style with React. Using inline method*/}
     const mainStyle = { border: 'black solid 2px', textAlign: 'center' };
 
+    {/*to render multiple elements they must be */}
+    {/*wrapped in a container element */}
     return (
-      // to render multiple elements they must be
-      // wrapped in a container element
        <div style={mainStyle}>
+          {/*This is how you write comments inside a nested div*/}
           <h1>Hello World!!!</h1>
           <h3>Hello World!!!</h3>
           <p>Random number {Math.floor(Math.random() * 10)}</p>
