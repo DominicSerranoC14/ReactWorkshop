@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import App from './jsx/App.jsx';
 import MultiApp from './jsx/MultiApp.jsx';
 import StateApp from './jsx/StateApp.jsx';
+import ValPropApp from './jsx/ValPropApp.jsx';
 
 // Render App.jsx
 // ReactDOM.render(<App />, document.getElementById('app'));
@@ -13,4 +14,7 @@ import StateApp from './jsx/StateApp.jsx';
 // ReactDOM.render(<MultiApp />, document.getElementById('app'));
 
 // Render StateApp.jsx
-ReactDOM.render(<StateApp />, document.getElementById('app'));
+// ReactDOM.render(<StateApp />, document.getElementById('app'));
+
+// Render ValPropApp.jsx
+// ReactDOM.render(<ValPropApp />, document.getElementById('app'));
