@@ -8,6 +8,7 @@ import StateApp from './jsx/StateApp.jsx';
 import ValPropApp from './jsx/ValPropApp.jsx';
 import LifeCycleApp from './jsx/LifeCycleApp.jsx';
 import FormApp from './jsx/FormApp.jsx';
+import EventApp from './jsx/EventApp.jsx';
 
 // Render App.jsx
 // ReactDOM.render(<App />, document.getElementById('app'));
@@ -25,4 +26,7 @@ import FormApp from './jsx/FormApp.jsx';
 // ReactDOM.render(<LifeCycleApp />, document.getElementById('app'));
 
 // Render FormApp.jsx
-ReactDOM.render(<FormApp />, document.getElementById('app'));
+// ReactDOM.render(<FormApp />, document.getElementById('app'));
+
+// Render EventApp.jsx
+ReactDOM.render(<EventApp />, document.getElementById('app'));
