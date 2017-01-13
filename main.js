@@ -9,6 +9,7 @@ import ValPropApp from './jsx/ValPropApp.jsx';
 import LifeCycleApp from './jsx/LifeCycleApp.jsx';
 import FormApp from './jsx/FormApp.jsx';
 import EventApp from './jsx/EventApp.jsx';
+import KeyApp from './jsx/KeyApp.jsx';
 
 // Render App.jsx
 // ReactDOM.render(<App />, document.getElementById('app'));
@@ -29,4 +30,7 @@ import EventApp from './jsx/EventApp.jsx';
 // ReactDOM.render(<FormApp />, document.getElementById('app'));
 
 // Render EventApp.jsx
-ReactDOM.render(<EventApp />, document.getElementById('app'));
+// ReactDOM.render(<EventApp />, document.getElementById('app'));
+
+// Render KeyApp.jsx
+ReactDOM.render(<KeyApp />, document.getElementById('app'));
