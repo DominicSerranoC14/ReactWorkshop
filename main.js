@@ -6,6 +6,7 @@ import App from './jsx/App.jsx';
 import MultiApp from './jsx/MultiApp.jsx';
 import StateApp from './jsx/StateApp.jsx';
 import ValPropApp from './jsx/ValPropApp.jsx';
+import LifeCycleApp from './jsx/LifeCycleApp.jsx';
 
 // Render App.jsx
 // ReactDOM.render(<App />, document.getElementById('app'));
@@ -18,3 +19,6 @@ import ValPropApp from './jsx/ValPropApp.jsx';
 
 // Render ValPropApp.jsx
 // ReactDOM.render(<ValPropApp />, document.getElementById('app'));
+
+// Render LifeCycleApp.jsx
+ReactDOM.render(<LifeCycleApp />, document.getElementById('app'));
