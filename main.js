@@ -37,14 +37,14 @@ import { RouterApp, Home, About, Contact } from './jsx/RouterApp.jsx';
 // Render KeyApp.jsx
 // ReactDOM.render(<KeyApp />, document.getElementById('app'));
 
-ReactDOM.render((
-   <Router history={browserHistory}>
-      <Route path="/" component={RouterApp}>
-         <IndexRoute component={Home} />
-         <Route path="home" component={Home} />
-         <Route path="about" component={About} />
-         <Route path="contact" component={Contact} />
-      </Route>
-   </Router>
-
-), document.getElementById('app'))
+// Using react-router
+// ReactDOM.render((
+//    <Router history={browserHistory}>
+//       <Route path="/" component={RouterApp}>
+//          <IndexRoute component={Home} />
+//          <Route path="home" component={Home} />
+//          <Route path="about" component={About} />
+//          <Route path="contact" component={Contact} />
+//       </Route>
+//    </Router>
+// ), document.getElementById('app'))
